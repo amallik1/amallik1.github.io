@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Basic HTML</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+<body>
+
+<div class="nav" id="myNav">
+  <header>
+    <h1><a href="home.html">Angie Mallik</a></h1>
+    <p>PORTFOLIO</p>
+  </header>
+</div>
+
+<div class="content">
+
+  <article>
+    <div class="item">
+        <p>Point/Line/Plane - Photo Project</p>
+        <img src="C:\Users\Angie\Desktop\gra598\images\glass.jpg" />
+      </div>
+
+      <div class="item">
+        <p>Point/Line/Plane - Squares Project</p>
+        <img src="C:\Users\Angie\Desktop\gra598\images\glass.jpg" />
+      </div>
+
+      <div class="item">
+        <p>Symbol Project</p>
+        <img src="C:\Users\Angie\Desktop\gra598\images\glass.jpg" />
+      </div>
+
+      <div class="item">
+        <p>Point/Line/Plane - Connections Project</p>
+        <img src="C:\Users\Angie\Desktop\gra598\images\glass.jpg" />
+      </div>
+
+      <div class="item">
+        <p>Letterform "H" Project</p>
+        <img src="C:\Users\Angie\Desktop\gra598\images\glass.jpg" />
+      </div>
+
+      <div class="item">
+        <p>Point/Line/Plane - Animation Project</p>
+        <img src="C:\Users\Angie\Desktop\gra598\images\glass.jpg" />
+      </div>
+
+      <div class="item"  id="item1">
+        <p>Point/Line/Plane - Cubes Project</p>
+        <img src="C:\Users\Angie\Desktop\gra598\images\glass.jpg" />
+      </div>
+
+      <div class="item">
+        <h3>Glass Mountain</h3>
+        <img src="C:\Users\Angie\Desktop\gra598\images\glass.jpg" />
+      </div>
+
+      <div class="item">
+        <h3>Glass Mountain</h3>
+        <img src="C:\Users\Angie\Desktop\gra598\images\glass.jpg" />
+      </div>
+    </article>
+  </div>
+
+<footer>
+  <a>About  Me</a>
+</footer>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var nav = document.getElementById("myNav");
+var sticky = nav.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    nav.classList.add("sticky");
+  } else {
+    nav.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>
